@@ -1,0 +1,28 @@
+name: emotion_wave
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  get_cli: any
+  google_fonts: ^6.2.1
+  story_view: ^0.16.5
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  carousel_slider: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/png/
